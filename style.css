@@ -1,0 +1,66 @@
+/* style.css */
+body {
+    background-image: url(img/matrix.jpg);
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: aliceblue;
+
+    }
+
+.container {
+    background-image: url(img/matrix.jpg);
+    margin: 20px auto;
+    max-width: 400px;
+    padding: 20px;
+    border: transparent;
+    border-radius: 5px;
+    background-color: transparent;
+}
+/* ... Seu código CSS existente ... */
+
+#outputText, #outputCryptedText {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+}
+
+
+.alert {
+    color: yellow;
+    font-weight: bold; 
+    background-color: red;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 10px;
+    background-color: black;
+    color: beige;
+    
+}
+
+button {
+    padding: 8px 12px;
+    background-color: black;
+    color: aliceblue;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkolivegreen;
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 80%;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        max-width: 100%;
+    }
+}
